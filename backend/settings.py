@@ -41,11 +41,11 @@ class _UiSettings(BaseSettings):
         env_ignore_empty=True
     )
 
-    title: str = "BP Legal AI Chatbot"
+    title: str = "Legal AI Chatbot"
     logo: Optional[str] = None
     chat_logo: Optional[str] = None
-    chat_title: str = "Ask me about Data Privacy, Ethics & Compliance"
-    chat_description: str = "This chatbot is configured to answer your questions"
+    chat_title: str = "Ask me about Data Privacy"
+    chat_description: str = "This chatbot is configured to answer your questions about BP's data privacy policies"
     favicon: str = "/favicon.ico"
     show_share_button: bool = True
 
