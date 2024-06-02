@@ -78,10 +78,16 @@ const Layout = () => {
             </Link>
 
             <Link to="/">
-              <h3 className={styles.headerTitle}>Sub Link 1</h3>
+              <h4 className={styles.subLinkActive}>Data Privacy</h4>
             </Link>
             <Link to="/">
-              <h3 className={styles.headerTitle}>Sub Link 2</h3>
+              <h4 className={styles.subLink}>Sub Link 2</h4>
+            </Link>
+            <Link to="/">
+              <h4 className={styles.subLink}>Sub Link 3</h4>
+            </Link>
+            <Link to="/">
+              <h4 className={styles.subLink}>Sub Link 3</h4>
             </Link>
           </Stack>
 

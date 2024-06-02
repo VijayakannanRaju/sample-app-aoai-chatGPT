@@ -21,6 +21,8 @@
   text-decoration: none;
 }
 
+
+
 .headerTitle {
   font-style: normal;
   font-weight: 600;
@@ -35,6 +37,18 @@
   height: 32px;
   width: auto;
   margin-left: 36px;
+}
+
+.subLinkActive {
+  color: #009900;
+}
+
+.subLink {
+  color: slategray;
+}
+
+.subLink:hover {
+  color: #009900;
 }
 
 .shareButtonContainer {
