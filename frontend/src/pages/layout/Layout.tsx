@@ -77,16 +77,16 @@ const Layout = () => {
               <h1 className={styles.headerTitle}>Legal AI Chatbot</h1>
             </Link>
 
-            <Link to="/">
+            <Link to="/" className={styles.customLink}>
               <h4 className={styles.subLinkActive}>Data Privacy</h4>
             </Link>
-            <Link to="/">
+            <Link to="/"  className={styles.customLink}>
               <h4 className={styles.subLink}>Sub Link 2</h4>
             </Link>
-            <Link to="/">
+            <Link to="/"  className={styles.customLink}>
               <h4 className={styles.subLink}>Sub Link 3</h4>
             </Link>
-            <Link to="/">
+            <Link to="/"  className={styles.customLink}>
               <h4 className={styles.subLink}>Sub Link 3</h4>
             </Link>
           </Stack>
