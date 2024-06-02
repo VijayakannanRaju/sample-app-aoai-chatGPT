@@ -31,6 +31,7 @@
   display: flex;
   align-items: flex-end;
   color: #242424;
+  margin-right: 20px;
 }
 
 .headerIcon {
