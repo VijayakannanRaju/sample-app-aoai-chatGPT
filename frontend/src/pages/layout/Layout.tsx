@@ -46,7 +46,7 @@ const Layout = () => {
     }
   }, [copyClicked])
 
-  useEffect(() => {}, [appStateContext?.state.isCosmosDBAvailable.status])
+  useEffect(() => { }, [appStateContext?.state.isCosmosDBAvailable.status])
 
   useEffect(() => {
     const handleResize = () => {
@@ -77,6 +77,19 @@ const Layout = () => {
               <h1 className={styles.headerTitle}>Legal AI Chatbot</h1>
             </Link>
           </Stack>
+
+          <Stack horizontal verticalAlign="center">
+            <Link to="/" className={styles.headerTitleContainer}>
+              <h3 className={styles.headerTitle}>Sub Link 1</h3>
+            </Link>
+            <Link to="/" className={styles.headerTitleContainer}>
+              <h3 className={styles.headerTitle}>Sub Link 2</h3>
+            </Link>
+          </Stack>
+
+          
+
+
           <Stack horizontal tokens={{ childrenGap: 4 }} className={styles.shareButtonContainer}>
             {appStateContext?.state.isCosmosDBAvailable?.status !== CosmosDBStatus.NotConfigured && (
               <HistoryButton
@@ -131,3 +144,6 @@ const Layout = () => {
 }
 
 export default Layout
+
+
+// set NODE_OPTIONS=--max-old-space-size=16000
