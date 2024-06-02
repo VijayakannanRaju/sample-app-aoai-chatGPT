@@ -215,7 +215,7 @@ def prepare_model_args(request_body, request_headers):
         "max_tokens": app_settings.azure_openai.max_tokens,
         "top_p": app_settings.azure_openai.top_p,
         "stop": app_settings.azure_openai.stop_sequence,
-        "stream": app_settings.azure_openai.stream,
+        "stream": app_settings.azure_openai.model,
         "model": app_settings.azure_openai.stop_sequence,
         "user": user_json
     }
