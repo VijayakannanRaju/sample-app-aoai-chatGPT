@@ -76,16 +76,16 @@ const Layout = () => {
             <Link to="/" className={styles.headerTitleContainer}>
               <h1 className={styles.headerTitle}>Legal AI Chatbot</h1>
             </Link>
-          </Stack>
 
-          <Stack horizontal verticalAlign="center">
-            <Link to="/" className={styles.headerTitleContainer}>
+            <Link to="/">
               <h3 className={styles.headerTitle}>Sub Link 1</h3>
             </Link>
-            <Link to="/" className={styles.headerTitleContainer}>
+            <Link to="/">
               <h3 className={styles.headerTitle}>Sub Link 2</h3>
             </Link>
           </Stack>
+
+          
 
           
 
